@@ -1,10 +1,10 @@
 # Professional README Generator
     
-    [![License: None](https://img.shields.io/badge/License-None-lightgrey.svg)](https://www.apache.org/licenses/LICENSE-2.0)
+    [![License: The Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
     
   
 ## Description
-    a command-line application that dynamically generates a professional README.md file from a user's input.
+    To dynamically create a README file for the current project
 
 ## Table of Contents
   - [Description](#description)
@@ -17,19 +17,19 @@
   
 
 ## Installation
-Shoertly to follow
+Coming soon....
 
 ## Usage
-Shortly to follow
+Coming soon....
 
 ## License
-This project is licensed under the "None" license.
+This project is licensed under the "The Unlicense" license.
 
 ## Contributing
-Shortly to follow
+Coming soon....
 
 ## Tests
-Shortly to follow
+Coming soon....
 
 ## Questions
 GitHub: [amr@github](https://github.com/amr@github)

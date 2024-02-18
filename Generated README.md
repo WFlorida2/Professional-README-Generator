@@ -20,7 +20,7 @@
 
 
 ## License
-This project is licensed under the  MIT License license.
+This project is licensed under the Apache License 2.0 license.
 
 ## Contributing
 
@@ -29,8 +29,8 @@ This project is licensed under the  MIT License license.
 
 
 ## Questions
-GitHub: [a@git](https://github.com/a@git)
+GitHub: [](https://github.com/)
 
-For additional questions, please email [a@test.com](mailto:a@test.com).
+For additional questions, please email [a.@test..com](mailto:a.@test..com).
 
 

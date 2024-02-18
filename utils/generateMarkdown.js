@@ -4,16 +4,13 @@ function generateMarkdown(data) {
 
   switch (data.license) {
     case "Apache License 2.0":
-      licenseBadge = "[![Apache License 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
-      break;
-    case "None":
-      licenseBadge = "No License selected / no license badge available";
+      licenseBadge = "[![Apache License 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
       break;
     case "MIT":
-      licenseBadge = "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
+      licenseBadge = "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
       break;
     case "Eclipse Public License 2.0":
-      licenseBadge = "[![License: Eclipse Public License 2.0](https://img.shields.io/badge/License-EPL%202.0-red.svg)](https://www.eclipse.org/legal/epl-2.0/)";
+      licenseBadge = "[![License: Eclipse Public License 2.0](https://img.shields.io/badge/License-EPL%202.0-red.svg)](https://www.eclipse.org/legal/epl-2.0/)"
       break;
     }
     return `# ${data.title}

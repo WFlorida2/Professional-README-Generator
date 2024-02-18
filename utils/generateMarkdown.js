@@ -4,7 +4,7 @@ function generateMarkdown(data) {
 
   switch (data.license) {
     case "Apache License 2.0":
-      licenseBadge = "[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
+      licenseBadge = "[![Apache License 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
       break;
     case "None":
       licenseBadge = "No License selected / no license badge available";

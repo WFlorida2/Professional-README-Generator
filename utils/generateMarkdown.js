@@ -22,7 +22,7 @@ function generateMarkdown(data) {
 ${data.description}
 
 ## Table of Contents
-  - [Title](#title)
+  - [Title](data.title)
        - [Description](#description)
        - [Installation](#installation)
        - [Usage](#usage)

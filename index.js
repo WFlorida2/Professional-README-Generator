@@ -8,7 +8,7 @@ function validateEmail(email) {
     // Regular expression for email validation
     const re = /\S+@\S+\.\S+/;
     return re.test(email) && email.trim() !== ""; // Check if email matches pattern and is not empty after trimming
-    }
+}
 
 // array of questions for user
 const questions = [
@@ -47,18 +47,18 @@ const questions = [
         name: "license",
         message: "Please choose a license for your project:",
         choices: ["Apache License 2.0",
-                    "None", 
-                    " GNU General Public License v3.0",
-                    " MIT License",
-                    " BSD 2-Clause 'Simplified' License",
-                    " BSD 3-Clause New or Revised License",
-                    " Boost Software License 1.0" ,
-                    " Creative Commons Zero v1.0 Universal" ,
-                    " Eclipse Public License 2.0" ,
-                    " GNU General Public License v2.0" ,
-                    " Mozilla Public License 2.0" ,
-                    " The Unlicense" 
-                    ]
+            "None",
+            "GNU General Public License v3.0",
+            "MIT License",
+            "BSD 2-Clause 'Simplified' License", // Corrected typo here
+            "BSD 3-Clause New or Revised License",
+            "Boost Software License 1.0",
+            "Creative Commons Zero v1.0 Universal",
+            "Eclipse Public License 2.0",
+            "GNU General Public License v2.0",
+            "Mozilla Public License 2.0",
+            "The Unlicense"
+        ]
     },
     {
         type: "input",
@@ -85,15 +85,16 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer.prompt(questions)
         .then((answers) => {
-        const readmeContent = generateMarkdown(answers);
-        writeToFile("Generated README.md", readmeContent);
-        console.log("Generated README.md successfully generated!");
+            const readmeContent = generateMarkdown(answers);
+            console.log("Generated Markdown:");
+            console.log(readmeContent); // Log generated Markdown for debugging
+            writeToFile("Generated_README.md", readmeContent);
+            console.log("Generated README.md successfully generated!");
         })
         .catch((error) => {
-        console.error("Error occurred:", error);
+            console.error("Error occurred:", error);
         });
-    }
-
+}
 
 // function call to initialize program
 init();

@@ -3,8 +3,9 @@ function generateMarkdown(data) {
   let licenseBadge = "[![License: Unknown](https://img.shields.io/badge/License-Unknown-lightgrey.svg)]";
   const licenseMap = {
       "Apache License 2.0": "[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
-      "MIT": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)",
-      "Eclipse Public License 2.0": "[![License: Eclipse Public License 2.0](https://img.shields.io/badge/License-EPL%202.0-red.svg)](https://www.eclipse.org/legal/epl-2.0/)"
+      "MIT License": "[![License: MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)",
+      "Eclipse Public License 2.0": "[![License: Eclipse Public License 2.0](https://img.shields.io/badge/License-EPL%202.0-red.svg)](https://www.eclipse.org/legal/epl-2.0/)",
+      "None": "[![License: None](https://img.shields.io/badge/License-None-lightgrey.svg)]"
   };
 
   for (const licenseType in licenseMap) {

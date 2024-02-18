@@ -49,6 +49,7 @@ const questions = [
         choices: ["Apache License 2.0",
                     "MIT License",
                     "Eclipse Public License 2.0",
+                    "None"
         ]
     },
     {

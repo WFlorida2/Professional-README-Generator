@@ -50,7 +50,7 @@ const questions = [
                     "None", 
                     " GNU General Public License v3.0",
                     " MIT License",
-                    " BSD 2-Claue 'Simplified' License",
+                    " BSD 2-Clause 'Simplified' License",
                     " BSD 3-Clause New or Revised License",
                     " Boost Software License 1.0" ,
                     " Creative Commons Zero v1.0 Universal" ,

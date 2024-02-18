@@ -3,6 +3,13 @@ const path = require('path');
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
 
+// Email validation function
+function validateEmail(email) {
+    // Regular expression for email validation
+    const re = /\S+@\S+\.\S+/;
+    return re.test(email) && email.trim() !== ""; // Check if email matches pattern and is not empty after trimming
+    }
+
 // array of questions for user
 const questions = [
     {
@@ -63,9 +70,12 @@ const questions = [
     {
         type: "input",
         name: "email",
-        message: "Please type in your email address?",
+        message: "What is your email address?",
+        validate: function (input) {
+            // Validate the input using the validateEmail function
+            return validateEmail(input) ? true : "Please enter a valid email address";
+        }
     }
-
 ];
 
 // function to write README file

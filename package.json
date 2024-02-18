@@ -1,14 +1,14 @@
 {
-  "name": "static-site",
+  "name": "Professional README Generator",
   "version": "1.0.0",
-  "description": "",
+  "description": "To create a dynamically generated README",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Amr Shehata",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "^6.3.1"
+    "inquirer": "^9.2.14"
   }
 }

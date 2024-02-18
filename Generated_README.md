@@ -1,10 +1,10 @@
-# Professional README Generator
+# Testing The badge issue
     
-    [![License: The Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
+    
     
   
 ## Description
-    To dynamically create a README file for the current project
+    Testing The badge issue
 
 ## Table of Contents
   - [Description](#description)
@@ -17,21 +17,21 @@
   
 
 ## Installation
-Coming soon....
+Testing The badge issue
 
 ## Usage
-Coming soon....
+Testing The badge issue
 
 ## License
-This project is licensed under the "The Unlicense" license.
+This project is licensed under the "MIT License" license.
 
 ## Contributing
-Coming soon....
+Testing The badge issue
 
 ## Tests
-Coming soon....
+Testing The badge issue
 
 ## Questions
-GitHub: [amr@github](https://github.com/amr@github)
+GitHub: [amr](https://github.com/amr)
 
 For additional questions, please email [a@b.com](mailto:a@b.com).

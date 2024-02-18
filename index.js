@@ -47,17 +47,9 @@ const questions = [
         name: "license",
         message: "Please choose a license for your project:",
         choices: ["Apache License 2.0",
-            "None",
-            "GNU General Public License v3.0",
-            "MIT License",
-            "BSD 2-Clause 'Simplified' License", // Corrected typo here
-            "BSD 3-Clause New or Revised License",
-            "Boost Software License 1.0",
-            "Creative Commons Zero v1.0 Universal",
-            "Eclipse Public License 2.0",
-            "GNU General Public License v2.0",
-            "Mozilla Public License 2.0",
-            "The Unlicense"
+                    "None",
+                    "MIT License",
+                    "Eclipse Public License 2.0",
         ]
     },
     {

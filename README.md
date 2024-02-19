@@ -40,7 +40,8 @@ The Challenge is to build a a command-line application that dynamically generate
 
 ### images
    ### End results:
-    ![End result](assets/images/End%20result.png)  
+    ![End result](./assets/images/End%20result.png)  
+    
 
 
 ### Video

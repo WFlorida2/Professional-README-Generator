@@ -1,5 +1,5 @@
 # Professional-README-Generator
- [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+ [![License: Eclipse Public License 2.0](https://img.shields.io/badge/License-EPL%202.0-red.svg)](https://www.eclipse.org/legal/epl-2.0/)
     
   
 ## Description
@@ -29,17 +29,18 @@ Steps:
 
 
 ## Usage
+
 This commandline app designed to capture users input and generate a README FILE. It can be used in any project that would benefit from fast automated processes. 
 
    * Navigate to the desired directory.  
    * Type in ' node index.js'.   
    * Respond to the on-screen questions.   
-   * Verify that your answers were all registered in a new ' Generated_README.md' file. 
+   * Verify that your answers were all registered in a new ' Generated_README.md' file.
 
 
 
 ## License
-This project is licensed under the "Apache License 2.0" license.
+This project is licensed under the "Eclipse Public License 2.0" license.
 
 ## Contributing
 Visit this site to learn more on contribution (https://www.contributor-covenant.org/)

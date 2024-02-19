@@ -33,6 +33,7 @@ The Challenge is to build a a command-line application that dynamically generate
     - type in the terminal the foloowing command ' node index.js'
 
 ## Usage
+- This commandline app designed to capture users input and generate a README FILE. It can be used in any project that would benefit from fast automated processes.   
 - Navigate to the desired directory.  
 - Type in ' node index.js'.  
 - Respond to the on-screen questions.  

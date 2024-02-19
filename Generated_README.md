@@ -1,12 +1,12 @@
-# Professional Readme file Generator
- [![License: Eclipse Public License 2.0](https://img.shields.io/badge/License-EPL%202.0-red.svg)](https://www.eclipse.org/legal/epl-2.0/)
+# Professional-README-Generator
+ [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
     
   
 ## Description
-To create a dynamically gernerated README file
+The Challenge is to build a a command-line application that dynamically generates a professional README.md file from a user's input.
 
 ## Table of Contents
-  - Professional Readme file Generator
+  - Professional-README-Generator
        - [Description](#description)
        - [Installation](#installation)
        - [Usage](#usage)
@@ -17,21 +17,21 @@ To create a dynamically gernerated README file
   
 
 ## Installation
-coming soon.........
+- Exposure to Node.js and the concepts of modules and npm.  
 
 ## Usage
-coming soon.........
+- Creating interactive command-line applications.  
 
 ## License
-This project is licensed under the "Eclipse Public License 2.0" license.
+This project is licensed under the "Apache License 2.0" license.
 
 ## Contributing
-coming soon.........
+- Used 'fs' library to read and write files.
 
 ## Tests
-coming soon.........
+
 
 ## Questions
-GitHub: [Amr](https://github.com/Amr)
+GitHub: [](https://github.com/)
 
-For additional questions, please email [amr@hotmail.com](mailto:amr@hotmail.com).
+For additional questions, please email [a@b.com](mailto:a@b.com).

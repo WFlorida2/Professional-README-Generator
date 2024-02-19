@@ -3,7 +3,7 @@
     
   
 ## Description
-Testing the new app
+
 
 ## Table of Contents
   - Professional-README-Generator
@@ -17,21 +17,21 @@ Testing the new app
   
 
 ## Installation
-Testing
+testing
 
 ## Usage
-Testing
+testing 
 
 ## License
 This project is licensed under the "Eclipse Public License 2.0" license.
 
 ## Contributing
-Testing
+testing
 
 ## Tests
-Testing
+testing
 
 ## Questions
 GitHub: [WFlorida2](https://github.com/WFlorida2)
 
-For additional questions, please email [A.B@COMa@b.com](mailto:A.B@COMa@b.com).
+For additional questions, please email [a.b@test.com](mailto:a.b@test.com).

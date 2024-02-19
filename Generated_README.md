@@ -1,5 +1,5 @@
 # Professional-README-Generator
- [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+ [![License: Eclipse Public License 2.0](https://img.shields.io/badge/License-EPL%202.0-red.svg)](https://www.eclipse.org/legal/epl-2.0/)
     
   
 ## Description
@@ -17,21 +17,21 @@ The Challenge is to build a a command-line application that dynamically generate
   
 
 ## Installation
-- Exposure to Node.js and the concepts of modules and npm.  
+Pre-requiste: (Access to VSC editor), (Download the code toyour VSC editor), (Navigate to 'index.js' file),(type in the terminal the foloowing command 'node index.js')
 
 ## Usage
-- Creating interactive command-line applications.  
+This commandline app designed to capture users input and generate a README FILE. It can be used in any project that would benefit from fast automated processes. (Navigate to the desired directory, Type in ' node index.js' , Respond to the on-screen questions, Verify that your answers were all registered in a new ' Generated_README.md' file.) 
 
 ## License
-This project is licensed under the "Apache License 2.0" license.
+This project is licensed under the "Eclipse Public License 2.0" license.
 
 ## Contributing
-- Used 'fs' library to read and write files.
+Visit this site to learn more on contribution (https://www.contributor-covenant.org/)
 
 ## Tests
-
+Feel free to follow the instructions above to test the app
 
 ## Questions
-GitHub: [](https://github.com/)
+GitHub: [WFlorida2](https://github.com/WFlorida2)
 
-For additional questions, please email [a@b.com](mailto:a@b.com).
+For additional questions, please email [amr@bootcamp.com](mailto:amr@bootcamp.com).

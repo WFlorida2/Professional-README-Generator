@@ -39,7 +39,7 @@ The Challenge is to build a a command-line application that dynamically generate
 - Verify that your answers were all registered in a new ' Generated_README.md' file.  
 
 ## images
-   ![End result1](assets/images/Endresult.png)
+   ![End result1](assets/images/endResult.png)
 
 ## Video
    ### End results:

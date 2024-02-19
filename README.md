@@ -43,7 +43,7 @@ The Challenge is to build a a command-line application that dynamically generate
    ![End result1](assets/images/endResult.png)
 
 ## Video
-   ### End results:
+   
 
  
 

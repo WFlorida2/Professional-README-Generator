@@ -43,7 +43,6 @@ The Challenge is to build a a command-line application that dynamically generate
    ![End result1](assets/images/endResult.png)
 
 ## Video
-https://github.com/WFlorida2/Professional-README-Generator/assets/34221493/67ecdbc2-7e04-4876-80e0-1a040b206f2a
 
 
 

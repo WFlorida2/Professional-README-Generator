@@ -1,7 +1,7 @@
-const fs = require("fs");
-const path = require('path');
-const inquirer = require("inquirer");
-const generateMarkdown = require("./utils/generateMarkdown");
+const fs = require("fs"); // Import the Node.js File System module for file operations
+const path = require('path'); // Import the Node.js Path module for path-related operations
+const inquirer = require("inquirer"); // Import the Inquirer module for user prompts
+const generateMarkdown = require("./utils/generateMarkdown"); // Import the custom generateMarkdown function from a local file
 
 // Email validation function
 function validateEmail(email) {
@@ -10,7 +10,7 @@ function validateEmail(email) {
     return re.test(email) && email.trim() !== ""; // Check if email matches pattern and is not empty after trimming
 }
 
-// array of questions for user
+// Array of questions for user
 const questions = [
     {
         type: "input",
@@ -68,25 +68,25 @@ const questions = [
     }
 ];
 
-// function to write README file
+// Function to write README file
 function writeToFile(fileName, data) {
-    fs.writeFileSync(fileName, data);
+    fs.writeFileSync(fileName, data); // Write data to the specified file synchronously
 }
 
-// function to initialize program
+// Function to initialize program
 function init() {
-    inquirer.prompt(questions)
-        .then((answers) => {
-            const readmeContent = generateMarkdown(answers);
+    inquirer.prompt(questions) // Prompt the user with the array of questions
+        .then((answers) => { // Once user provides answers
+            const readmeContent = generateMarkdown(answers); // Generate Markdown content using provided answers
             console.log("Generated Markdown:");
             console.log(readmeContent); // Log generated Markdown for debugging
-            writeToFile("Generated_README.md", readmeContent);
+            writeToFile("Generated_README.md", readmeContent); // Write generated Markdown to a file
             console.log("Generated README.md successfully generated!");
         })
-        .catch((error) => {
-            console.error("Error occurred:", error);
+        .catch((error) => { // If any error occurs during the process
+            console.error("Error occurred:", error); // Log the error
         });
 }
 
-// function call to initialize program
+// Function call to initialize program
 init();

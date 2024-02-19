@@ -38,13 +38,10 @@ The Challenge is to build a a command-line application that dynamically generate
 - Respond to the on-screen questions.  
 - Verify that your answers were all registered in a new ' Generated_README.md' file.  
 
-### images
-   ### End results:
-    ![End result](./assets/images/End%20result.png)  
-    
+## images
+   ![End result1](assets/images/Endresult.png)
 
-
-### Video
+## Video
    ### End results:
 
 
